@@ -1,2 +1,5 @@
 # zg-graph
-Simple wrapper for Google Graphs.
+A simple wrapper for Google Graphs.
+
+The Class folder contains a custom library.
+The Example folder contains examples of usage.
