@@ -2,7 +2,7 @@
 /**
  * Zg Graph
  *
- * Last revison: 21.7.2017
+ * Last revison: 31.7.2017
  * @copyright Copyright (c) 2017 ZoraData sdružení <http://www.zoradata.cz>
  * @author Jaroslav Šourek <jaroslav.sourek@zoradata.cz>
  * @version 1.0.5
@@ -45,13 +45,13 @@ class ZgGraph
     
     /**
      * Draw a graph
-     * @param string $ type Graph type
-     * @param string $ element Element HTML element to display a graph
-     * @param array $ data Data for a graph
-     * @param array $ options Optional graph parameters
-     * @param array $ packages Optional packages required for a given graph type
-     * @param boolean $ asImage View a graph as an image
-     * @param boolean $ isResponsive Response graph
+     * @param string $type Graph type
+     * @param string $element Element HTML element to display a graph
+     * @param array $data Data for a graph
+     * @param array $options Optional graph parameters
+     * @param array $packages Optional packages required for a given graph type
+     * @param boolean $asImage View a graph as an image
+     * @param boolean $isResponsive Response graph
      * @return string Javascript string 
      */
    public function draw($type, $element, $data, $options = NULL, $packages = array('corechart'), $asImage = FALSE, $isResponsive = TRUE)
